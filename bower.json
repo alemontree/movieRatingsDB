@@ -1,0 +1,20 @@
+{
+  "name": "movie_ratings_db",
+  "description": "stores and retrieves movie ratings",
+  "main": "index.js",
+  "authors": [
+    "Mikhail Shnayder"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "movie"
+  ],
+  "homepage": "https://github.com/alemontree/movieRatingsDB",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -10,5 +10,12 @@
     "movie"
   ],
   "author": "Mikhail Shnayder",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.13.4"
+  },
+  "package": {
+    "type": "git",
+    "url": "git@github.com:alemontree/movieRatingsDB.git"
+  }
 }
