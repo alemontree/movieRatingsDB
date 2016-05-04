@@ -6,7 +6,7 @@ let path = require('path');
 const PORT = 3838;
 
 app.use('/',express.static(path.resolve(__dirname +'/../../src/app')));
-console.log(path.resolve(__dirname +'/../../src/app'))
+
 app.get('/', function(req, res) {
   res.sendFile(path.resolve(__dirname +'/../../src/app/index.html'), function(error) {
     if (error) {
