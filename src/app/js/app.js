@@ -18,25 +18,20 @@ class InputForm extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick() {
+  handleClick(e) {
+    e.preventDefault();
     console.log(this.refs.myValue.value);
-
-
-
   }
 
   render() {
     return (
       <form>
-      <input type="text" placeholder="enter here" ref="myValue" />
-      <input type ="submit" onClick={this.handleClick} />
+        <input type="text" placeholder="enter here" ref="myValue" />
+        <input type ="submit" onClick={this.handleClick} />
       </form>
-
     );
   }
-
 }
-
 
 ReactDOM.render(
   <div>
